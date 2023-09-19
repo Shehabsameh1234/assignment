@@ -1,5 +1,6 @@
 import { style } from '@angular/animations';
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-portfolio',
@@ -7,6 +8,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent {
+
+  constructor(private titleService:Title){
+    titleService.setTitle("portfolio ")
+  }
   getSrc: string = ""
   openDisplay(event: any) {
     this.getSrc = event.srcElement.id

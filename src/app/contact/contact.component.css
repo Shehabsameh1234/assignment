@@ -1,0 +1,46 @@
+span {
+    border: solid 2px black;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+label{
+    display: block;
+    text-align: left; 
+    color: #1abc9c;
+    display: none;
+}
+
+input:focus{
+    outline: 0;
+    border: 0;
+}
+
+div.container{
+    width: 50%;
+}
+
+section{
+    background-color:white;
+  color: #212529;
+  justify-content: start; 
+ }
+
+
+
+
+@media (min-width: 0px) and (max-width: 320px) {
+    h2 {
+        font-size: 25px;
+    }
+}
+
+
+@media (min-width: 321px)and (max-width: 480px) {
+    h2 {
+        font-size: 30px;
+    }
+}
