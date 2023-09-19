@@ -1,3 +1,5 @@
+
+
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
@@ -8,9 +10,21 @@ import { Title } from '@angular/platform-browser';
 })
 export class ContactComponent {
 
-
-  constructor(private titleService:Title){
+  constructor(private titleService: Title) {
     titleService.setTitle("contact")
   }
 
+  label: string = ""
+  label1(event: any) {
+    this.label = event.target.value
+  }
+
+
+
+
+
+
 }
+
+
+

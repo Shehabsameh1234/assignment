@@ -23,7 +23,6 @@
 section {
    background-color: #1abc9c;
    color: white;
-   height: 80vh;
    display: flex;
    flex-direction: column;
    justify-content: center;
