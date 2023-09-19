@@ -13,11 +13,9 @@ h2{
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
    font-size: 40px;
 }
-
 p{
     display: inline;
 }
-
 section{
     height: 80vh;
 }
